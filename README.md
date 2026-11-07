@@ -1,4 +1,4 @@
-# Twitch-Female-Stream-Blocker
+# Twitch-Female-Stream-Blocker (en/ru)
 
 Twitch Female Stream Blocker 🚫👩
 
