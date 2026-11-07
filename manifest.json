@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Twitch Female Stream Blocker",
+  "version": "2.0",
+  "description": "Скрывает стримы девушек с помощью тегов, популярных слов, женских имён",
+  "permissions": [],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*.twitch.tv/*"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
